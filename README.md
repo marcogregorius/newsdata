@@ -1,4 +1,6 @@
-# Newsdata README
+# README
+## Introduction
+The database in this project consists of 3 tables, a list of articles with number of views, authors of the articles and request status codes of the website.
 
 This code is designed to query with regards to three questions:
 1. What are the most popular three articles of all time?
