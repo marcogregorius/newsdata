@@ -8,7 +8,9 @@ This code is designed to query with regards to three questions:
 3. On which days did more than 1% of requests lead to errors?
 
 ## Usage
-To run the queries, call the function `mostPopularArticles()`, `mostPopularAuthors()`, `daysWithHighErrors()` in *newsdata.py* to answer above questions respectively.
+1. Download the [dataset](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). Unzip the file and put it in the same folder as newsdata.py
+2. Generate the data into your local database using command `psql -d news -f newsdata.sql`.
+3. Run newsdata.py to call the function `mostPopularArticles()`, `mostPopularAuthors()`, `daysWithHighErrors()` in *newsdata.py* to answer above questions respectively.
 
 ## Result
 Output of above queries can be found in `output.txt`
